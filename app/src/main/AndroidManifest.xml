@@ -32,6 +32,12 @@
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
             android:value=".MainActivity" />
+
+        <provider
+            android:name=".data.PetProvider"
+            android:authorities="com.muhsanjaved.sqlite_database_practice"
+            android:exported="false" />
+
     </application>
 
 </manifest>
